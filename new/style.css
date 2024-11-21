@@ -1,0 +1,22 @@
+* {
+  margin:0
+  padding:0
+}
+
+.contact-us {
+  text-align: center
+}
+
+.form-row {
+  display: flex;
+}
+
+.first-name {
+  display: flex;
+  flex-direction: column;
+}
+
+.last-name {
+  display: flex;
+  flex-direction: column;
+}
