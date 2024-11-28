@@ -69,7 +69,7 @@ let s = 9;
 s /= 3;
 console.log(s);
 
-let t = 8;
+let t = 9;
 t %= 4;
 console.log(t);
 
@@ -143,7 +143,57 @@ console.log("hello "+"world");
 
 
 
+let fruits = ["apple","orange","banana","mango"];
+vegitables = ["carraot","keera","potato","onion"];
+food = [...fruits, ...vegitables];
+console.log(food);
+
+let username = "jayachandra";
+ word = [...username];
+console.log(word);
 
 
 
+
+
+
+let numbers = [1,2,3,4,5,6,7,8,9];
+ oddnums = numbers.filter(isodd);
+console.log(oddnums);
+
+function isodd(element){
+  return element %2 !== 0;
+}
+
+
+var number = [11,12,13,14,15,16,17,18,19];
+ evennums = number.filter(iseven);
+ console.log(evennums);
+ function iseven(element){
+    return element %2 === 0;
+ }
+
+ 
+
+
+
+let ages = [11,15,18,19,22,24,28,26,33];
+ adult = ages.filter(isadult);
+ console.log(adult);
+ function isadult(element) {
+    return element >= 18
+ }
+
+
+
+ let age = [10,16,17,12,23,25,21,27,31];
+ children = age.filter(ischildren);
+ console.log(children);
+ function ischildren(element) {
+    return element <= 18;
+ }
+
+let fruitwords = ["apple","orange","banana","mango","pineappale","watermelon"];
+shortlength = fruitwords.filter(word => word.length >= 6);
+console.log (shortlength);
 
