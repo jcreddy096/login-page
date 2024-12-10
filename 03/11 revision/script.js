@@ -317,60 +317,62 @@ console.log(a >= b);
 
 
 
-var a = 150;
-b = 175; 
-console.log(a <= b);
+var a6 = 150;
+b6 = 175; 
+console.log(a6 <= b6);
 
 
 
-var a = 150;
-b = 175; 
-console.log(a == b);
-
-
-
-
-var a = 150;
-b = 175; 
-console.log(a === b);
+var a5 = 150;
+b5 = 175; 
+console.log(a5 == b5);
 
 
 
 
-var a = 150;
-b = "175"; 
-console.log(a === b);
+var a4 = 150;
+b4 = 175; 
+console.log(a4 === b4);
 
 
 
 
-var a = 150;
-b = 175; 
-console.log(a != b);
+var a3 = 150;
+b3 = "175"; 
+console.log(a3 === b3);
 
 
 
 
-var a = 150;
-b = "175"; 
-console.log(a !== b);
-
-
-var x = 15;
-y = 20; 
-console.log( x>0 && y>0);
-console.log( x<0 && y<0);
-console.log( x>=0 && y<=0);
-console.log( x<=0 && y>=0);
+var a2 = 150;
+b2 = 175; 
+console.log(a2 != b2);
 
 
 
-var x = 15;
-y = 20; 
-console.log( x>0 || y>0);
-console.log( x<0 || y<0);
-console.log( x>=0 || y<=0);
-console.log( x<=0 || y>=0);
+
+var a1 = 150;
+b1 = "175"; 
+console.log(a1 !== b1);
+
+
+var x2 = 15;
+y2 = 20; 
+console.log( x2>0 && y2>0);
+console.log( x2<0 && y2<0);
+console.log( x2>=0 && y2<=0);
+console.log( x2<=0 && y2>=0);
+
+
+
+
+
+var x1 = 15;
+y1 = 20; 
+console.log( x1>0 || y1>0);
+console.log( x1<0 || y1<0);
+console.log( x1>=0 || y1<=0);
+console.log( x1<=0 || y1>=0);
 
 
 
@@ -394,6 +396,8 @@ console.log("hello "+"world")
  
   var ex = 2+5**3
  console.log(ex);
+
+
 
 
 
@@ -441,8 +445,6 @@ for (let i = 1; i < 8; i++) {
     }
     console.log(i);
 }
-
-
 
 
 

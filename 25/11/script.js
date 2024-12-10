@@ -1,11 +1,13 @@
 
-<script>
-function myFunction() {
-  var x = document.getElementById("myInput");
-  if (x.type === "password") {
-    x.type = "text";
-  } else {
-    x.type = "password";
-  }
-}
-</script>
+
+    let form = document.getElementById("form");
+    form.addEventListener("submit", function(event) {
+     event.preventDefault(); 
+        var email = document.getElementById("email").value;
+        console.log(email);
+          
+        var password = document.getElementById("password").value;
+        console.log(password);
+        alert("buttonClicked")
+    });
+    
