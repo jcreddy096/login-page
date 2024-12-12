@@ -385,7 +385,82 @@ return a
    .filter(number => number % 2 !== 0)
  .reduce((acc, number) => acc + number, 0)
 }
-console.log(summ(1,2,3,4,5,6,7,8,9))
+console.log(summ(1,2,3,4,5,6,7,8,9));
+
+
+// 4.Write a program to filter out only the even numbers from an array using filter.
+
+
+let even = [1,2,3,4,5,6,7,8,9]
+let evenNumbers = even.filter(number => number % 2 === 0)
+console.log(evenNumbers);
 
 
 
+// 3.Write a program that counts how many times a specific element appears in an array. Use a loop.
+
+
+/*function ele(arr,element){
+    count = 0
+    for( i = 0; i <= arr.length; i++){
+        if(arr[i] === element){
+            count++;
+        }
+    }
+    return count;
+} let elem = [1,2,3,1,4,5,1,7,1,1,8]
+let countNum = 1;
+console.log(ele(elem,countNum));*/
+
+
+
+
+function funn(num, ele){
+    result = 0;
+    for(let i = 0; i<= num.length; i++){
+        if(num[i] === ele){
+            result++
+        }
+    }
+return result;
+} const countNum = [1,2,3,4,2,5,6,2,7,2,8,9];
+check = 2;
+console.log(funn(countNum,check));
+
+
+
+// 2.Write a program that finds the largest number in an array using a loop.
+
+function large(largeNum){
+   let big = largeNum[0]
+    for(let i = 0; i <= largeNum.length; i++){
+        if(largeNum[i]  >= big){
+            big = largeNum[i];    
+        }
+    }return big;
+}const bigNum = [1,2,3,4,5,6,7,11];
+console.log(large(bigNum));
+
+
+// 1.Write a program to find the sum of all numbers in an array using a loop.
+
+
+/*function sumNum(all){
+    let result =0
+    for(let i = 0; i< all.length; i++){
+        result += all[i]
+        
+        
+    }return result;
+}const allaSum = [1,2,3,4,5,6,7,8,9];
+console.log(sumNum(allaSum));*/
+
+
+
+function funny(addSum){
+    let add = 0;
+    for(let i = 0; i < addSum.length; i++){
+        add += addSum[i];
+    }return add
+}const addNum = [11,0,12,0,14,1,4];
+console.log(funny(addNum));
